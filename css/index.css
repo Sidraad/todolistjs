@@ -1,0 +1,119 @@
+
+#root{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.control-label{
+  display: inline;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.input-group{
+    display: flex;
+    
+}
+
+.form-control{
+    /* flex: 1; */
+    width: 70%; 
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2b3035;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #384757;
+}
+
+
+ .help-block{
+    color: red;
+    display: block;
+    margin-top: 5px;
+    margin-right: 150px;
+}
+
+ /* #todolistcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#todolistcontainer > p{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 1px;
+}
+
+#todolistcontainer > p > button{
+    margin-left: 10px;
+    
+} */
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.todo-text {
+    flex: 1; /* Allow the text to grow and take up remaining space */
+}
+
+.todo-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.todo-buttons button {
+    margin-left: 10px; /* Add margin between buttons */
+}
+
+
+/* #todolistcontainer > p {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#todolistcontainer > p > button {
+    margin-right: 10px;
+} */
+
+
